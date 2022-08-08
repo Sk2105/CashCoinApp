@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2425" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/drawable/account_icon.xml" value="0.1" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/drawable/ad_play.xml" value="0.1505" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/drawable/b1.xml" value="0.243" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/drawable/b2.xml" value="0.243" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/drawable/background.xml" value="0.243" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/drawable/bottom_enable_drawable.xml" value="0.244" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/drawable/bt.xml" value="0.242" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/drawable/card_bg.xml" value="0.244" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/drawable/coin_icon.xml" value="0.2425" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/drawable/earning_view.xml" value="0.243" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/drawable/emoji_events.xml" value="0.244" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/drawable/enable_account_icon.xml" value="0.2425" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/drawable/enable_home_button.xml" value="0.2425" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/drawable/enable_wallet_icon.xml" value="0.2425" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/drawable/ero.xml" value="0.2435" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/drawable/ero_icon.xml" value="0.243" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/drawable/heading.xml" value="0.2425" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/drawable/home_icon.xml" value="0.244" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/drawable/ic_baseline_rule_24.xml" value="0.243" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2425" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/drawable/inactivite_account_icon.xml" value="0.2425" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/drawable/inactivity_home_icon.xml" value="0.2425" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/drawable/inactivity_wallet_icon.xml" value="0.2425" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/drawable/policy.xml" value="0.244" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/drawable/profile_icon.xml" value="0.244" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/drawable/text_bg.xml" value="0.242" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/drawable/title.xml" value="0.2425" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/drawable/wallet_icon.xml" value="0.244" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/drawable/wheel_bg.xml" value="0.244" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/layout/activity_policy.xml" value="0.14930555555555555" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.22395833333333334" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/layout/activity_wheel.xml" value="0.1838392475416845" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/layout/card_layout.xml" value="0.2" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/layout/fragment_account.xml" value="0.2" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/layout/fragment_home.xml" value="0.136" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/layout/fragment_my_wallet.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/layout/native_ads_view.xml" value="0.264" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/layout/progress_activity.xml" value="0.23697916666666666" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/layout/rewarded_card.xml" value="0.18263888888888888" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/layout/sign_in_activity.xml" value="0.152" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/menu/menu.xml" value="0.23802083333333332" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2425" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_circle.xml" value="0.2425" />
+        <entry key="..\:/Users/sk210/AndroidStudioProjects/CashCoinApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2425" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

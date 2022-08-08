@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="cardViewStyle">
+        <item name="android:layout_width">@dimen/a100</item>
+        <item name="android:layout_height">@dimen/a100</item>
+        <item name="android:layout_margin">@dimen/a10</item>
+
+
+
+    </style><style name="cardViewStyle2">
+        <item name="android:layout_width">@dimen/a50</item>
+        <item name="android:layout_height">@dimen/a50</item>
+    </style>
+       <style name="TextStyle">
+           <item name="android:layout_height">wrap_content</item>
+           <item name="android:layout_width">match_parent</item>
+           <item name="android:gravity">center</item>
+       </style>
+
+
+</resources>

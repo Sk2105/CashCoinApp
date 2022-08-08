@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="a1">1.5dp</dimen> 
+    <dimen name="a2">3dp</dimen> 
+    <dimen name="a4">6dp</dimen>
+    <dimen name="a5">7.5dp</dimen>
+    <dimen name="a8">12dp</dimen>
+    <dimen name="a10">15dp</dimen>
+    <dimen name="a12">18dp</dimen>
+    <dimen name="a14">21dp</dimen>
+    <dimen name="a15">22.5dp</dimen>
+    <dimen name="a16">24dp</dimen>
+    <dimen name="a20">30dp</dimen>
+    <dimen name="a24">36dp</dimen>
+    <dimen name="a26">39dp</dimen>
+    <dimen name="a28">42dp</dimen>
+    <dimen name="a32">48dp</dimen>
+    <dimen name="a36">54dp</dimen>
+    <dimen name="a40">60dp</dimen>
+    <dimen name="a45">67.5dp</dimen>
+    <dimen name="a50">75dp</dimen>
+    <dimen name="a60">90dp</dimen>
+    <dimen name="a80">120dp</dimen>
+    <dimen name="a100">150dp</dimen>
+</resources>

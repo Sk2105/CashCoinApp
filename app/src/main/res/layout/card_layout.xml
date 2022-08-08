@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/mwvStyle">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:cardBackgroundColor="@color/black"
+        app:cardCornerRadius="@dimen/a20"
+        app:cardElevation="@dimen/a14"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <ImageView
+            android:layout_width="@dimen/a100"
+            android:layout_height="@dimen/a100"
+            android:layout_marginStart="-10dp"
+            android:elevation="@dimen/a12"
+            android:layout_marginTop="-10dp"
+            android:src="@drawable/b1" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:elevation="@dimen/a12"
+            android:layout_height="@dimen/a50"
+            android:layout_gravity="top|end"
+            android:src="@drawable/cash_coin_logo" />
+
+
+        <ImageView
+            android:layout_width="@dimen/a100"
+            android:layout_height="@dimen/a100"
+            android:layout_gravity="end|bottom"
+            android:layout_marginEnd="-10dp"
+            android:elevation="@dimen/a12"
+            android:layout_marginBottom="-10dp"
+            android:src="@drawable/b2" />
+
+
+        <LinearLayout
+            style="@style/mwvStyle"
+            android:layout_gravity="bottom"
+            android:layout_margin="@dimen/a10">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/my_earning"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize24"
+
+                />
+
+            <LinearLayout
+                style="@style/mwhStyle"
+                android:layout_margin="@dimen/a5">
+
+                <ImageView
+                    android:layout_width="@dimen/a26"
+                    android:layout_height="@dimen/a26"
+                    android:elevation="@dimen/a12"
+                    android:src="@drawable/cash_coin_logo2" />
+
+                <TextView
+                    android:id="@+id/coinsId"
+                    style="@style/wpStyle"
+                    android:layout_marginStart="@dimen/a5"
+                    android:textAlignment="center"
+                    android:textColor="@color/darkYellow"
+                    android:textSize="@dimen/textSize20" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

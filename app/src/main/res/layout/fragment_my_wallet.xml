@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/mpvStyle"
+    android:background="@color/softPurple"
+    tools:context=".framents.MyWalletFragment">
+
+    <include layout="@layout/card_layout" />
+
+    <Button
+        android:id="@+id/redeem"
+        style="@style/mwStyle"
+        android:layout_margin="@dimen/a10"
+        android:background="@drawable/card_bg"
+        android:elevation="@dimen/a10"
+        android:text="@string/redeem"
+        android:textAllCaps="false"
+        android:textSize="@dimen/textSize24" />
+
+    <TextView
+        style="@style/mwStyle"
+        android:layout_margin="@dimen/a10"
+        android:text="@string/transcations"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textSize28"
+        android:textStyle="bold" />
+
+    <TextView
+        style="@style/mpStyle"
+        android:gravity="center"
+        android:text="@string/no_transcations"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textSize20" />
+
+</LinearLayout>

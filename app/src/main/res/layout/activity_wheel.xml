@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/mpvStyle"
+    android:background="@color/softPurple"
+    tools:context=".WheelActivity">
+
+    <ImageView
+        android:id="@+id/backButton"
+        style="@style/wpStyle"
+        android:layout_margin="@dimen/a10"
+        android:src="@drawable/ero" />
+
+    <TextView
+        android:id="@+id/g"
+        style="@style/mwStyle"
+        android:gravity="center"
+        android:padding="@dimen/a10"
+        android:text="@string/spin_wheel_game"
+        android:textColor="@color/darkYellow"
+        android:textSize="@dimen/textSize24"
+        android:textStyle="bold"
+
+        />
+
+
+    <ImageView
+        android:id="@+id/Wheel_icon"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/wheel_icon" />
+
+
+    <ImageView
+        android:layout_width="@dimen/a50"
+        android:layout_height="@dimen/a50"
+        android:layout_below="@id/Wheel_icon"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="-10dp"
+        android:elevation="@dimen/a50"
+        android:rotation="225"
+        android:src="@drawable/ero_icon" />
+
+    <Button
+        android:id="@+id/spin"
+        style="@style/wpStyle"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="@dimen/a80"
+        android:background="@drawable/card_bg"
+        android:elevation="@dimen/a12"
+        android:text="@string/spin"
+        android:textAllCaps="false"
+        android:textSize="@dimen/textSize24"
+
+
+        />
+
+</RelativeLayout>

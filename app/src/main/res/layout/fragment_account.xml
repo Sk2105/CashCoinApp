@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/mpvStyle"
+    android:background="@color/softPurple"
+    tools:context=".framents.AccountFragment">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/a50"
+        app:cardBackgroundColor="@color/blue"
+        app:cardCornerRadius="@dimen/a100"
+        app:cardElevation="@dimen/a10"
+        app:strokeColor="@color/darkYellow"
+        app:strokeWidth="@dimen/a2">
+
+        <ImageView
+            android:id="@+id/img"
+            style="@style/mpStyle" />
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <LinearLayout
+        style="@style/layoutStyle"
+        android:background="@drawable/text_bg">
+
+
+        <TextView
+            style="@style/tStyle"
+
+            android:text="@string/name" />
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/tStyle"
+            android:layout_marginStart="@dimen/a5" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/layoutStyle"
+        android:background="@drawable/text_bg">
+
+        <TextView
+            style="@style/tStyle"
+            android:text="@string/email" />
+
+        <TextView
+            android:id="@+id/email"
+            style="@style/tStyle"
+            android:layout_marginStart="@dimen/a5" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/signOut"
+        style="@style/tStyle"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/a10"
+        android:background="@drawable/bt"
+        android:elevation="@dimen/a5"
+        android:text="@string/signout"
+        android:textAllCaps="false"
+
+        />
+
+</LinearLayout>

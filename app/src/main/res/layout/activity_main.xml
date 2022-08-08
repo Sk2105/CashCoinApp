@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipeLayout"
+    style="@style/mpvStyle"
+    android:background="@color/softPurple"
+    tools:context=".MainActivity">
+
+    <LinearLayout style="@style/mpvStyle">
+
+        <LinearLayout
+            style="@style/mwhStyle"
+            android:background="@color/darkYellow">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="@dimen/a50"
+                android:layout_height="@dimen/a50"
+                android:layout_margin="@dimen/a5"
+                app:cardCornerRadius="@dimen/a100"
+                app:cardElevation="@dimen/a10"
+                app:cardPreventCornerOverlap="true"
+                app:strokeColor="@color/black"
+                app:strokeWidth="@dimen/a1">
+
+                <ImageView
+                    android:id="@+id/profileImg"
+                    style="@style/mpStyle"
+                    android:onClick="imgClick"
+                     />
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <LinearLayout style="@style/mwStyle">
+
+                <RelativeLayout style="@style/wpStyle">
+
+                    <LinearLayout
+                        android:id="@+id/bl"
+                        style="@style/wphStyle"
+                        android:layout_alignParentEnd="true"
+                        android:layout_margin="@dimen/a10"
+                        android:background="@drawable/earning_view">
+
+                        <ImageView
+                            android:layout_width="@dimen/a26"
+                            android:layout_height="@dimen/a32"
+                            android:layout_gravity="center"
+                            android:layout_margin="@dimen/a2"
+                            android:src="@drawable/cash_coin_logo2"
+
+
+                            />
+
+                        <TextView
+                            android:id="@+id/coinsId"
+                            style="@style/textStyle"
+                           />
+
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout style="@style/mpStyle">
+
+            <FrameLayout
+                android:id="@+id/framelayout"
+                style="@style/mpStyle"
+                android:layout_marginBottom="?attr/actionBarSize" />
+
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottomNavigationBar"
+                style="@style/mwStyle"
+                android:layout_alignParentBottom="true"
+                android:elevation="@dimen/a10"
+                app:itemIconSize="@dimen/a28"
+                app:itemIconTint="@drawable/bottom_enable_drawable"
+                app:itemTextColor="@drawable/bottom_enable_drawable"
+                app:labelVisibilityMode="selected"
+                app:menu="@menu/menu" />
+
+
+            <ProgressBar
+                android:id="@+id/progress"
+                style="@style/wphStyle"
+                android:layout_centerInParent="true"
+                android:visibility="invisible" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

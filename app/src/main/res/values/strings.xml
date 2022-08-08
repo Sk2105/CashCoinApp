@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">CashCoin</string>
+    <string name="sign_in">Sign In By Google</string>
+    <string name="webClintKey">719989235575-vh9dc20226nqj91302bk4uhqr36pf8p3.apps.googleusercontent.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile">Profile</string>
+    <string name="my_wallet">My Wallet</string>
+    <string name="home">Home</string>
+    <string name="daily_rewarded">Daily Reward</string>
+    <string name="log_in_daily_to_claim_free_coins1">Log In daily to claim</string>
+    <string name="l2">free coins</string>
+    <string name="claim_reward">Claim Reward</string>
+    <string name="you_win">You Win</string>
+    <string name="coins">Coins</string>
+    <string name="my_earning">My Earning</string>
+    <string name="transcations">Transcations</string>
+    <string name="no_transcations">No Transcations!</string>
+    <string name="spin_wheel_game">Spin Wheel Game</string>
+    <string name="spin">Spin</string>
+    <string name="spin_wheel">Spin Wheel</string>
+    <string name="spin_and_earn_reward">Spin And Earn Reward</string>
+    <string name="name"><![CDATA[Name : ]]></string>
+    <string name="email"><![CDATA[Email : ]]></string>
+    <string name="rules">Rules</string>
+    <string name="app_rules">App Rules</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="show_policy">Show Policy</string>
+    <string name="redeem">Redeem</string>
+    <string name="signout">SignOut</string>
+</resources>

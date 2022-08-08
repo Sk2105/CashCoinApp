@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/mpStyle"
+    android:background="@color/softPurple"
+    tools:context=".framents.HomeFragment">
+
+    <LinearLayout style="@style/mpvStyle">
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            style="@style/mwhStyle"
+            android:layout_marginTop="@dimen/a5"
+            ads:adSize="MEDIUM_RECTANGLE"
+            ads:adUnitId="ca-app-pub-3397903282571414/7291057575" />
+
+        <GridLayout
+            style="@style/wpStyle"
+            android:layout_gravity="bottom"
+            android:layout_margin="@dimen/a10"
+            android:columnCount="2"
+            android:rowCount="4">
+
+            <androidx.cardview.widget.CardView
+                style="@style/cardViewStyle."
+                app:cardCornerRadius="@dimen/a12"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout style="@style/mpvStyle">
+
+                    <TextView
+                        style="@style/textStyle."
+                        android:text="@string/daily_rewarded" />
+
+                    <ImageView
+                        style="@style/imageViewStyle"
+                        android:src="@drawable/emoji_events" />
+
+
+                    <Button
+                        android:id="@+id/claimBtn"
+                        style="@style/buttonStyle"
+                        android:text="@string/claim_reward" />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/cardViewStyle."
+                app:cardCornerRadius="@dimen/a12"
+
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout style="@style/mpvStyle"
+
+                    >
+
+                    <TextView
+                        style="@style/textStyle."
+                        android:text="@string/spin_wheel" />
+
+                    <ImageView
+                        style="@style/imageViewStyle"
+                        android:src="@drawable/wheel_icon"
+
+                        />
+
+                    <Button
+                        android:id="@+id/spinBtn"
+                        style="@style/buttonStyle"
+                        android:text="@string/spin" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/cardViewStyle."
+                app:cardCornerRadius="@dimen/a12"
+
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout style="@style/mpvStyle">
+
+                    <TextView
+                        style="@style/textStyle."
+                        android:text="@string/app_rules" />
+
+                    <ImageView
+                        style="@style/imageViewStyle"
+                        android:src="@drawable/ic_baseline_rule_24"
+
+                        />
+
+                    <Button
+                        android:id="@+id/rules"
+                        style="@style/buttonStyle"
+                        android:text="@string/rules" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/cardViewStyle."
+                app:cardCornerRadius="@dimen/a12"
+
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout style="@style/mpvStyle">
+
+                    <TextView
+                        style="@style/textStyle."
+                        android:text="@string/privacy_policy" />
+
+                    <ImageView
+                        style="@style/imageViewStyle"
+                        android:src="@drawable/policy" />
+
+                    <Button
+                        android:id="@+id/policy"
+                        style="@style/buttonStyle"
+                        android:text="@string/show_policy" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+    </LinearLayout>
+
+</ScrollView>

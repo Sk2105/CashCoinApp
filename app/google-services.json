@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "719989235575",
+    "project_id": "cashcoinapp-a363b",
+    "storage_bucket": "cashcoinapp-a363b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719989235575:android:6c8445d79fd7f5b3a68b72",
+        "android_client_info": {
+          "package_name": "com.android.cashcoinapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "719989235575-vh9dc20226nqj91302bk4uhqr36pf8p3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4mf25oxxK6T4je3M4rhyeRDSNks6PcVg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "719989235575-vh9dc20226nqj91302bk4uhqr36pf8p3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
